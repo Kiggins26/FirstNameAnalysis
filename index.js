@@ -275,7 +275,7 @@ const getNameMeaning_Handler =  {
         if(say === null){
            return responseBuilder
             .speak('there was an error in your input.')
-            .reprompt('try again, but this time please state your name and gender.')
+            .reprompt('try again, but this time please state your name and gender. Example: my name is Alexa and I am a female what does my name mean ')
             .getResponse();
         }
         return responseBuilder
